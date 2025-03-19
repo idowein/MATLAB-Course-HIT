@@ -1,0 +1,7 @@
+%% Quadratic Equation
+
+a = input('Please enter coeff a: \n');
+b = input('Please enter coeff b: \n');
+c = input('Please enter coeff c: \n');
+
+delta = b^2 - 4*a*c;
