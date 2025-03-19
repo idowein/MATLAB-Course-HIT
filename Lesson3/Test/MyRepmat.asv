@@ -1,0 +1,8 @@
+function [outputVector, outputMatrix] = MyRepmat(StrInputVector)
+    InputVector = str2num(StrInputVector);
+    if InputVector(1) == 0 || InputVector(1) == 1 
+        InputVector(1) = 5;
+        disp(InputVector)
+    end
+    outputMatrix = Repmat(InputVector, inpu)
+end

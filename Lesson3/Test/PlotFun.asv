@@ -1,0 +1,16 @@
+%211677083
+
+function PlotFun(start_time, end_time, num_points)
+
+    % 2.2 t vector initialization
+    t = linspace(start_time, end_time, num_points);
+
+    % 2.3 R and C initialization
+    R = 10000;
+    C = 0.1 * 10^-6;
+
+    % 2.4 y1 init
+    y1 = (1/(R*C))*exp(2*t);
+
+
+end
