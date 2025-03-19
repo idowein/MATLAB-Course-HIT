@@ -159,6 +159,26 @@ disp(vec4);
 vec5 = round(randn(1, 25)); %% generating 1X25 matix and then round each num
 disp(vec5);
 
+%% Q6
+
+matrix1 = randi([0, 10], 4, 4);
+disp(matrix1)
+
+matrix2 = [log(6.5), 5^5, 3; -0.985, -pi, 0.3; angle(1+1i), -88, 3];
+disp(matrix2)
+
+matrix3 = (-5:4:25);
+disp(matrix3)
+
+matrix4 = randi([0, 10], 3, 3);
+disp(matrix4)
+
+% matrix4(4,3) = 5;
+% that will error because there is no such column!
+
+%% Part 5
+%% Q6
+
 
 
 
