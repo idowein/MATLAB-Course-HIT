@@ -190,7 +190,25 @@ disp(second_column)
 
 %% Q8
 
+% disp() - Displays the value of a variable or string.
 
+% fprintf() - Formats and prints data to the command window or a file.
+
+% ones() - Creates an array filled with ones.
+
+% zeros() - Creates an array filled with zeros.
+
+% tril() - Extracts the lower triangular part of a matrix. כל האיברים מתחת
+% לאלכסון הראשי
+
+% triu() - Extracts the upper triangular part of a matrix. כל האיברים מעל
+% האלכסון הראשי
+
+%% Q9
+
+ID = 211677083;
+fprintf("%d\n", ID)
+disp(ID)
 
 
 

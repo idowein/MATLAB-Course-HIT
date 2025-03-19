@@ -182,10 +182,32 @@ disp(matrix4)
 last_row = matrix1(end, :); % end stands for the lasr row, : stands for all the elements.
 disp(last_row)
 
-element = matrix(2, 3); % ntice: (row, column)
+element = matrix1(2, 3); % ntice: (row, column)
 disp(element)
 
-second_column = matrix(:, 2);
+second_column = matrix1(:, 2);
+disp(second_column)
+
+%% Q8
+
+% disp() - Displays the value of a variable or string.
+
+% fprintf() - Formats and prints data to the command window or a file.
+
+% ones() - Creates an array filled with ones.
+
+% zeros() - Creates an array filled with zeros.
+
+% tril() - Extracts the lower triangular part of a matrix. כל האיברים מתחת
+% לאלכסון הראשי
+
+% triu() - Extracts the upper triangular part of a matrix. כל האיברים מעל
+% האלכסון הראשי
+
+%% Q9
+
+ID = 211677083;
+fprinf("%d")
 
 
 
