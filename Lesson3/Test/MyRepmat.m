@@ -1,4 +1,4 @@
-%211677083
+% 211677083
 
 function [outputVector, outputMatrix] = MyRepmat(StrInputVector)
     

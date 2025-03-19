@@ -1,4 +1,4 @@
-%211677083
+% 211677083
 
 function PlotFun(start_time, end_time, num_points)
 
@@ -24,9 +24,9 @@ function PlotFun(start_time, end_time, num_points)
     hold off;
     
     % 2.62
-    title('exercise 2');
+    title('Task 2');
     
     % 2.63
     legend('exp(-t/RC)', '0.3R/pi * atan(t)');
-    
+
 end
