@@ -177,8 +177,18 @@ disp(matrix4)
 % that will error because there is no such column!
 
 %% Part 5
-%% Q6
+%% Q7
 
+last_row = matrix1(end, :); % end stands for the lasr row, : stands for all the elements.
+disp(last_row)
+
+element = matrix1(2, 3); % ntice: (row, column)
+disp(element)
+
+second_column = matrix1(:, 2);
+disp(second_column)
+
+%% Q8
 
 
 
