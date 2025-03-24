@@ -1,13 +1,11 @@
 # MATLAB-Course-HIT
 
-# Introduction to Programming with MATLAB and Python
-
-This repository contains materials and code examples from an introductory programming course focusing on MATLAB and Python. The course covers fundamental programming concepts and their application in these two powerful languages.
+This repository contains materials and code examples from an introductory programming course focusing on MATLAB. The course covers fundamental programming concepts and their application in these two powerful language.
 
 **Course Objectives:**
 
 * To introduce basic programming concepts and syntax.
-* To gain proficiency in using MATLAB and Python for data analysis and visualization.
+* To gain proficiency in using MATLAB for data analysis and visualization.
 * To develop problem-solving skills through programming.
 * To understand and implement debugging techniques.
 
