@@ -1,4 +1,4 @@
-function [cell_Array] = MathematicalFunction()
+function [cell_array] = MathematicalFunction()
 % MathematicalFunction Summary of this function goes here
 %   Detailed explanation goes here
     
@@ -20,12 +20,5 @@ function [cell_Array] = MathematicalFunction()
     % 1.1.5 matrix declaration
     cell_Array = cell(1, 6);
 
-    % 1.2 matrix filling
-    cell_Array{1} = xx;
-    cell_Array{2} = xAxisString;
-    cell_Array{3} = yy;
-    cell_Array{4} = yAxisString;
-    cell_Array{5} = z;
-    cell_Array{6} = zAxisString
-
+    %
 end
