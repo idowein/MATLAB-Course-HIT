@@ -26,7 +26,7 @@ Plot3D(cellArray, 'abc')
 
 %% 3
 
-img = imread('img1.jpg');
+img = imread('img1.jpg'); % saving all the image in img
 cellArray = {img};
 figure;
 ShowImages(cellArray);
@@ -38,7 +38,7 @@ figure;
 ShowImages(cellArray);
 
 img = imread('img4.jpeg');
-cellArray = {img(:, :, 1), img(:, :, 2), img(:, :, 3)};
+cellArray = {img(:, :, 1), img(:, :, 2), img(:, :, 3)};% 1 -R, 2 - G, 3 - B
 figure;
 ShowImages(cellArray);
 
