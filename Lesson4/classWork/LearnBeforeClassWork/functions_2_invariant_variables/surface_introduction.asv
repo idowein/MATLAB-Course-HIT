@@ -1,0 +1,9 @@
+%% meshgrid - Example 1
+x = [-10,10,1.5];
+y = [4,3];
+
+[xx,yy] = meshgrid(x,y);
+z = xx.*yy; % multiplying every 2 elements in each place
+
+figure 
+mesh(xx,yy,z);
